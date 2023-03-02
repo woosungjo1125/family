@@ -12,24 +12,54 @@
 </script>
 <title>가족</title>
 <meta charset="utf-8">
+<style>
+    
+    .saw{
+        color:black;
+    }
+    a {
+        color:black; 
+        /*text-decoration:none;*/
+    }
+    h1{
+        font-size: 60px;
+        text-align:left;
+        border-bottom: 1px gray solid;
+        padding:20px;  
+        margin:0;      
+    }
+    ol{
+        border-right:1px solid gray;
+        width:75px;margin:0; 
+        padding:20px;
+    }
+    body{
+        margin:0px;
+    }
+    #rows{
+        display:grid;
+        grid-template-columns:150px 1fr;
+    }
+</style>
 </head>
 
 <body>
 <h1><a href="index.html">구성원</a></h1>
-<ol>
+<div id="rows"><div><ol>
 <li><a href="조우성.html">조우성</a></li>
 <li><a href="황상우.html">황상우</a></li>
 <li><a href="조하은.html">조하은</a></li>
 <li><a href="조하엘.html">조하엘</a></li>
 <li><a href="조하겸.html">조하겸</a></li>
-</ol>
-
+</ol></div>
+<div>
 <p><strong><h2><u>조하겸</u> 프로필</h2></strong><br>
 이름 : 조하겸<br>
 나이 : 0세<br>
-특징 : 잘웃고 애교많은 성격<br>
-<사진><br>
-<img src="조하겸.jpg"width="40%"height="40%"></p>
+특징 : 잘웃고 애교많은 성격<br><br>
+<사진><br><br>
+<img src="조하겸.jpg"width="400"></p>
+</div></div>
 <p>
     <div id="disqus_thread"></div>
 <script>
