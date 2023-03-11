@@ -5,16 +5,18 @@
     <meta charset="utf-8">
     <link rel="stylesheet"href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
   </head>
 
-  <body>
-    <h1><a href="index.html" class="text" style="position:relative">구성원</a></h1>
+  <body class="behind">
+    <h1><a href="index.html" class="text" style="position:relative">토북이家</a></h1>
     <script>
       $('.text').animate({
         opacity:0.25,
         left:'+=500'},
         5000);						
     </script>
+    <br><span>우리 가족 홈페이지에 오신 것을 환영합니다.</span>
     <div id="rows">
       <ol>
         <li><a href="조우성.html">조우성</a></li>
@@ -22,6 +24,7 @@
         <li><a href="조하은.html">조하은</a></li>
         <li><a href="조하엘.html">조하엘</a></li>
         <li><a href="조하겸.html">조하겸</a></li>
+        <br><input type="button" value="Night" onclick="NightDay(this)">
       </ol>
       <span>
         <p>
